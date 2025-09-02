@@ -81,7 +81,7 @@ This project includes a complete and in-depth set of documents that cover the jo
 
 1.  **[Theoretical Framework](doc/Theoretical_Framework.pdf)**: Details the core concepts, the two fundamental laws, and the design philosophy of the model.
 2.  **[Thought Experiment](doc/Thought_Experiment.pdf)**: A proof-of-concept that logically deduces the model's internal consistency and theoretical feasibility.
-3.  **[Empirical Validation Report]((https://github.com/junminglazy/Lazy-Update-World-Model/tree/main/doc))**: Presents the complete data, charts, and analysis from the quantitative experiment conducted in Unity.
+3.  **[Empirical Validation Report]((https://github.com/junminglazy/Lazy-Update-World-Model/blob/main/doc/Experiment%20Report.pdf))**: Presents the complete data, charts, and analysis from the quantitative experiment conducted in Unity.
 4.  **[Philosophical Discussion](doc/On_the_Essential_Difference_Between_the_Virtual_and_Real_Worlds.pdf)**: An in-depth exploration of the philosophical implications of this model regarding the nature of reality.
 5.  **[Unity Setup Manual](docs/Unity_Setup_Manual.pdf)**: A step-by-step guide to building the experiment project from scratch.
 
