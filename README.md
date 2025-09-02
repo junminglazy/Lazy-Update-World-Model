@@ -1,2 +1,78 @@
 # Lazy-Update-World-Model
 An Observer-Centric Virtual World Architecture designed to solve the 'Impossible Triangle' in game development.
+
+# Observer-Centric Virtual World Architecture: The Lazy Update World Model
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This project introduces a revolutionary architectural model designed to fundamentally solve the "Impossible Triangle" (the trade-off between world scale, content fidelity, and cost) in modern virtual world development.
+
+This model subverts the traditional object-centric **O(N)** computational paradigm ("existence is computation") by introducing the core principle of "**perception is computation**." By decoupling computational complexity from the total number of objects (`N`) and tying it only to the number of observed objects (`K`), this architecture successfully achieves theoretical **Scale Invariance**.
+
+---
+
+## Core Concepts
+
+The model is built upon a series of innovative theoretical cornerstones:
+
+* **Potential State**: The vast majority of unobserved objects exist in a state where their logical rules are preserved, but the computation of their specific state is indefinitely deferred, resulting in immense computational savings.
+* **Compressed Evolution**: When an object in a "Potential State" is observed, the system performs a one-time, mathematically equivalent calculation to instantaneously update its state to the current moment, rather than relying on frame-by-frame simulation.
+* **Dual Reference Frames**: Based on a "dimensional difference," an **External Observer** (e.g., a developer) can see the underlying optimization mechanisms (like the "Activity Spotlight"), while an **Internal Observer** (e.g., a player or NPC) experiences a "Perfect Illusion" that is logically self-consistent and causally complete.
+* **The Two Fundamental Laws**:
+    1.  **Law I (Observer Effect & Lazy Update)**: Responsible for retrospectively settling the historical state of an object in a single instance when it is **passively observed**.
+    2.  **Law II (Observer Intervention & Causal Chain Settlement)**: Responsible for prospectively budgeting the future causal chain of an object after it has been **actively intervened** with (e.g., thrown, collided with).
+
+## Astonishing Empirical Results
+
+The theory has been comprehensively validated through the "Strangest Clock Experiment" in the Unity engine. The empirical data provides irrefutable proof of the model's overwhelming advantages:
+
+-   [cite_start]🚀 **Revolutionary Performance Gains**: In a stress test with up to **65,536** dynamic objects, this model achieved a **124.5% FPS improvement** and a **52.1% CPU saving** compared to the traditional update model, whose performance had completely collapsed (running at only 12.4 FPS)[cite: 3299, 3687, 3683].
+-   [cite_start]✨ **Exceptional Scale Invariance**: As the total number of objects grew exponentially to **32,768**, the Lazy Update model's average frame rate remained stable at **52.9 FPS**, demonstrating performance almost entirely independent of the world's total scale[cite: 3299, 3685].
+-   [cite_start]📉 **Extreme Computational Efficiency**: At the maximum scale, the "**Active Rate**" (the percentage of objects actually computed per frame) was a mere **0.015%**, successfully eliminating nearly all unnecessary computations[cite: 3299, 3686].
+-   [cite_start]💯 **Absolute Logical Consistency**: For an internal observer, the entire experience is mathematically and logically **identical** to that of a world running continuous "brute-force" computations, successfully creating a "Perfect Illusion"[cite: 283, 1752, 1941, 3424, 3843].
+
+## How to Replicate the Experiment
+
+You are encouraged to download and run this project to experience the power of the Lazy Update model firsthand.
+
+1.  **Environment**:
+    * [cite_start]Unity Editor Version: **2022.3.6f1** [cite: 3470, 3951]
+
+2.  **Running the Project**:
+    * Clone or download this repository.
+    * Using Unity Hub, open the Unity project located in the `/src` directory.
+    * Open the `SampleScene`.
+    * Press the **Play** button to run the experiment.
+
+3.  **Core Control Hotkeys**:
+    * [cite_start]`Z` - Generate initial clocks [cite: 3505, 3987]
+    * [cite_start]`X` - Start/Pause the experiment [cite: 3505, 3987]
+    * [cite_start]`C` - Add more clocks to the scene [cite: 3505, 3987]
+    * [cite_start]`B` - Switch in real-time between **Traditional** and **LazyUpdate** modes [cite: 3505, 3987]
+    * [cite_start]`G` - Start/Stop a 10-second performance data collection for the current mode [cite: 3505, 3987]
+    * [cite_start]`Tab` - (In LazyUpdate mode only) Toggle the main camera's **External/Internal Observer** mode [cite: 3505, 3987]
+
+[cite_start]For detailed setup instructions and a full list of hotkeys, please refer to the [**Unity Experiment Setup Manual**](docs/4_Unity_Setup_Manual.pdf)[cite: 3509].
+
+## Documentation Center
+
+This project includes a complete and in-depth set of documents that cover the journey from theory to practice, located in the `/docs` directory.
+
+> **Note on Translations:** All documents are provided in both English and Chinese. The English versions have been generated by AI translation. For the most accurate and original phrasing, please refer to the **Chinese versions as the authoritative source**.
+
+1.  **[Theoretical Framework](doc/Theoretical_Framework.pdf)**: Details the core concepts, the two fundamental laws, and the design philosophy of the model.
+2.  **[Thought Experiment](doc/Thought_Experiment.pdf)**: A proof-of-concept that logically deduces the model's internal consistency and theoretical feasibility.
+3.  **[Empirical Validation Report](doc/Empirical_Validation_Report.pdf)**: Presents the complete data, charts, and analysis from the quantitative experiment conducted in Unity.
+4.  **[Philosophical Discussion](doc/On_the_Essential_Difference_Between_the_Virtual_and_Real_Worlds.pdf)**: An in-depth exploration of the philosophical implications of this model regarding the nature of reality.
+5.  **[Unity Setup Manual](docs/Unity_Setup_Manual.pdf)**: A step-by-step guide to building the experiment project from scratch.
+
+## How to Contribute
+
+Contributions of all forms are welcome, whether it's submitting code, reporting bugs, or engaging in theoretical discussions. You can participate in the following ways:
+
+* Submit any issues or suggestions for new features on our [**Issues**](https://github.com/junminglazy/Lazy-Update-World-Model/issues) page.
+* Fork this repository, make your own changes, and submit your contributions via a **Pull Request**.
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
