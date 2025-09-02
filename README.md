@@ -11,6 +11,7 @@ This model subverts the traditional object-centric **O(N)** computational paradi
 
 ---
 The Story: To Realize an Impossible AI Dream, I Accidentally Discovered a Set of "Counter-intuitive" World Laws
+
 Hello everyone. I want to share a project I'm working on, and the somewhat crazy origin story behind it.
 
 Ever since I was a child, I've loved reading novels and always had a dream: what would it be like to truly step into the world of a story? When ChatGPT was released, I thought this dream was within reach. I imagined it could become the omniscient "narrator," the "referee" of a world, allowing me to be completely immersed in a dynamic story.
