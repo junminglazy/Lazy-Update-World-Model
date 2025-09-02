@@ -20,7 +20,7 @@ But I quickly hit a wall of reality. I found that a world—even one from a nove
 
 After my dream hit a snag, I decided to build it myself. My goal was to create a truly high-freedom, D&D-style text-based adventure game.
 
-To achieve this, I began designing a game AI called the "Multi-System Synergistic Cognitive Architecture" (MSSCA).an eightlayer, modular design in which each layer has a clear role, and information flow with feedback forms a complete perception–
+To achieve this, I began designing a game AI called the "Multi-System Synergistic Cognitive Architecture" (MSSCA). an eight-layer, modular design in which each layer has a clear role, and information flow with feedback forms a complete perception–
 cognition–action loop for agents. This is a grand vision that integrates various theories from cognitive science, aiming to create NPCs with their own consciousness, emotions, and values.
 
 I know this sounds like a fantasy. Honestly, I don't know if this AI theory is entirely correct, and sorting out its internal logic might take me a decade or even longer. But I believe everyone has the right to dream. So, I took the first step on this long journey.
