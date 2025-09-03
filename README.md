@@ -10,26 +10,6 @@ This project introduces a revolutionary architectural model designed to fundamen
 This model subverts the traditional object-centric **O(N)** computational paradigm ("existence is computation") by introducing the core principle of "**perception is computation**." By decoupling computational complexity from the total number of objects (`N`) and tying it only to the number of observed objects (`K`), this architecture successfully achieves theoretical **Scale Invariance**.
 
 ---
-The Story: To Realize an Impossible AI Dream, I Accidentally Discovered a Set of "Counter-intuitive" World Laws
-
-Hello everyone. I want to share a project I'm working on, and the somewhat crazy origin story behind it.
-
-Ever since I was a child, I've loved reading novels and always had a dream: what would it be like to truly step into the world of a story? When ChatGPT was released, I thought this dream was within reach. I imagined it could become the omniscient "narrator," the "referee" of a world, allowing me to be completely immersed in a dynamic story.
-
-But I quickly hit a wall of reality. I found that a world—even one from a novel—has such vast and complex internal logic and causality that it's an astronomical task for our current technology. Generative AI might be able to mimic dialogue, but it cannot sustainably and reliably track and compute the intricate web of logical chains between all entities in a world.
-
-After my dream hit a snag, I decided to build it myself. My goal was to create a truly high-freedom, D&D-style text-based adventure game.
-
-To achieve this, I began designing a game AI called the "Multi-System Synergistic Cognitive Architecture" (MSSCA). an eight-layer, modular design in which each layer has a clear role, and information flow with feedback forms a complete perception–
-cognition–action loop for agents. This is a grand vision that integrates various theories from cognitive science, aiming to create NPCs with their own consciousness, emotions, and values.
-
-I know this sounds like a fantasy. Honestly, I don't know if this AI theory is entirely correct, and sorting out its internal logic might take me a decade or even longer. But I believe everyone has the right to dream. So, I took the first step on this long journey.
-
-Inevitably, I needed a "venue" to test my AI. However, because my AI design has to process immense internal logic, its demand on computational resources is extremely high. This meant I first had to create a virtual world with a massive performance "surplus" to allow my AI to "think" freely within it.
-
-Thus, my mission shifted from "designing an AI" to "radically optimizing a world." In the pursuit of performance, I began to question the fundamental rules of how game worlds operate. And it was during this process that I stumbled upon the two sets of counter-intuitive theoretical laws that have puzzled me to this day.
-
-They seemed to offer a massive performance boost, but the way they described the world's operation... was very strange.
 ## Core Concepts
 
 The model is built upon a series of innovative theoretical cornerstones:
@@ -81,7 +61,7 @@ This project includes a complete and in-depth set of documents that cover the jo
 
 1.  **[Theoretical Framework](doc/Theoretical_Framework.pdf)**: Details the core concepts, the two fundamental laws, and the design philosophy of the model.
 2.  **[Thought Experiment](doc/Thought_Experiment.pdf)**: A proof-of-concept that logically deduces the model's internal consistency and theoretical feasibility.
-3.  **[Empirical Validation Report]((doc/Experiment_Report.pdf))**: Presents the complete data, charts, and analysis from the quantitative experiment conducted in Unity.
+3.  **[Empirical Validation Report](docs/experimentReport/Experiment_Report.pdf)**: Presents the complete data, charts, and analysis from the quantitative experiment conducted in Unity.
 4.  **[Philosophical Discussion](doc/On_the_Essential_Difference_Between_the_Virtual_and_Real_Worlds.pdf)**: An in-depth exploration of the philosophical implications of this model regarding the nature of reality.
 5.  **[Unity Setup Manual](docs/Unity_Setup_Manual.pdf)**: A step-by-step guide to building the experiment project from scratch.
 
