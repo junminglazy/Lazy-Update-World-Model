@@ -1,0 +1,1779 @@
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 1
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.5)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 55.5 - 60.1
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.1%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：1个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 1
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.2)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 58.8 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 100.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 1个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.1%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 0.3%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+
+
+[DataCollector] 开始记录：2个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.4)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 57.0 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：2个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 60.0 (±0.1)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.4 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 100.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 2个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.1%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: -0.1%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：4个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 4
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 60.0 (±0.1)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.2 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：4个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 4
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.2)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 58.7 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 100.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 4个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 0.1%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：8个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 8
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 60.0 (±0.1)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.5 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：8个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 8
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 60.0 (±0.1)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.7 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 75.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 8个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 25.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：16个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 16
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 60.0 (±0.1)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.8 - 60.4
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：16个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 16
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.2)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 58.9 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.1%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 50.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 16个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: -0.5%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 50.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：32个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 32
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.2)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 58.9 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.1%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：32个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 32
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 60.0 (±0.2)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 58.8 - 60.3
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 31.3%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 32个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.1%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 0.5%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 68.8%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：64个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 64
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 60.0 (±0.1)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.6 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.1%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：64个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 64
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 60.0 (±0.1)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.7 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 15.6%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 64个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 0.2%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 84.4%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：128个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 128
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.6)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 55.0 - 60.6
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.1%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：128个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 128
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.2)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.2 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 7.8%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 128个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.1%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 0.2%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 92.2%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：256个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 256
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 60.0 (±0.2)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 58.2 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.1%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：256个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 256
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.2)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 58.8 - 60.3
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 3.9%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 256个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 0.6%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 96.1%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：512个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 512
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.2)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 58.9 - 60.5
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.1%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：512个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 512
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.1)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.4 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 2.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 512个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 0.5%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 98.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：1024个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 1024
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.2)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 58.8 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：1024个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 1024
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 60.0 (±0.1)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.6 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 1.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 1024个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.1%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 99.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：2048个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 2048
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.6 (±0.6)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 57.5 - 60.4
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.1%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：2048个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 2048
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 60.0 (±0.2)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 58.9 - 60.3
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 0.5%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 2048个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 0.7%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 0.4%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 99.5%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：4096个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 4096
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 58.2 (±2.6)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 50.5 - 60.1
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 21.1%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：4096个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 4096
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.8 (±0.6)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 57.0 - 61.9
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.3%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 0.2%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 4096个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 2.8%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 3.9%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 99.8%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：8192个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 8192
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 55.6 (±5.6)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 40.8 - 60.0
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 22.7%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：8192个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 8192
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.1)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.3 - 60.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.2%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 0.1%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 8192个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 7.8%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 11.1%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 99.9%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：16384个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 16384
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 49.8 (±10.0)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 29.1 - 59.5
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 27.2%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：16384个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 16384
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 59.9 (±0.4)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 59.3 - 61.5
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 20.5%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 0.1%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 16384个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 20.3%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 24.8%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 99.9%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：32768个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 32768
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 32.4 (±9.9)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 18.4 - 48.2
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 47.2%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：32768个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 32768
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 52.9 (±1.0)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 49.2 - 54.5
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 25.5%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 32768个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 63.2%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 45.8%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 100.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+
+[DataCollector] 开始记录：65536个时钟，Traditional模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] Traditional模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 65536
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 12.4 (±3.4)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 8.3 - 18.9
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 90.7%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] 开始记录：65536个时钟，LazyUpdate模式
+UnityEngine.Debug:Log (object)
+DataCollector:StartCurrentModeRecording () (at Assets/Clock/Scripts/DataCollector.cs:214)
+ExperimentController:Debug_StartDataCollection () (at Assets/Clock/Scripts/ExperimentController.cs:222)
+ExperimentController:HandleDebugHotkeys () (at Assets/Clock/Scripts/ExperimentController.cs:165)
+ExperimentController:Update () (at Assets/Clock/Scripts/ExperimentController.cs:108)
+
+[DataCollector] LazyUpdate模式记录完成
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:535)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 时钟数: 65536
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:536)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均FPS: 27.8 (±0.4)
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:537)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS范围: 26.7 - 28.5
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:538)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 平均CPU: 43.4%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:539)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 活跃率: 0.0%
+UnityEngine.Debug:Log (object)
+DataCollector:ShowRecordingComplete (DataCollector/ModeData) (at Assets/Clock/Scripts/DataCollector.cs:543)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:425)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[DataCollector] ✓ 65536个时钟的两种模式数据已齐全！
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:554)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- FPS提升: 124.5%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:555)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- CPU节省: 52.1%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:556)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+- 效率提升: 100.0%
+UnityEngine.Debug:Log (object)
+DataCollector:CheckDataCompleteness () (at Assets/Clock/Scripts/DataCollector.cs:557)
+DataCollector/<RecordModeData>d__33:MoveNext () (at Assets/Clock/Scripts/DataCollector.cs:426)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
