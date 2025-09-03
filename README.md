@@ -25,17 +25,17 @@ The model is built upon a series of innovative theoretical cornerstones:
 
 The theory has been comprehensively validated through the "Strangest Clock Experiment" in the Unity engine. The empirical data provides irrefutable proof of the model's overwhelming advantages:
 
--   [cite_start]🚀 **Revolutionary Performance Gains**: In a stress test with up to **65,536** dynamic objects, this model achieved a **124.5% FPS improvement** and a **52.1% CPU saving** compared to the traditional update model, whose performance had completely collapsed (running at only 12.4 FPS)[cite: 3299, 3687, 3683].
--   [cite_start]✨ **Exceptional Scale Invariance**: As the total number of objects grew exponentially to **32,768**, the Lazy Update model's average frame rate remained stable at **52.9 FPS**, demonstrating performance almost entirely independent of the world's total scale[cite: 3299, 3685].
--   [cite_start]📉 **Extreme Computational Efficiency**: At the maximum scale, the "**Active Rate**" (the percentage of objects actually computed per frame) was a mere **0.015%**, successfully eliminating nearly all unnecessary computations[cite: 3299, 3686].
--   [cite_start]💯 **Absolute Logical Consistency**: For an internal observer, the entire experience is mathematically and logically **identical** to that of a world running continuous "brute-force" computations, successfully creating a "Perfect Illusion"[cite: 283, 1752, 1941, 3424, 3843].
+-   🚀 **Revolutionary Performance Gains**: In a stress test with up to **65,536** dynamic objects, this model achieved a **124.5% FPS improvement** and a **52.1% CPU saving** compared to the traditional update model, whose performance had completely collapsed (running at only 12.4 FPS).
+-   ✨ **Exceptional Scale Invariance**: As the total number of objects grew exponentially to **32,768**, the Lazy Update model's average frame rate remained stable at **52.9 FPS**, demonstrating performance almost entirely independent of the world's total scale.
+-   📉 **Extreme Computational Efficiency**: At the maximum scale, the "**Active Rate**" (the percentage of objects actually computed per frame) was a mere **0.015%**, successfully eliminating nearly all unnecessary computations.
+-   💯 **Absolute Logical Consistency**: For an internal observer, the entire experience is mathematically and logically **identical** to that of a world running continuous "brute-force" computations, successfully creating a "Perfect Illusion".
 
 ## How to Replicate the Experiment
 
 You are encouraged to download and run this project to experience the power of the Lazy Update model firsthand.
 
 1.  **Environment**:
-    * [cite_start]Unity Editor Version: **2022.3.6f1** [cite: 3470, 3951]
+    * Unity Editor Version: **2022.3.6f1**
 
 2.  **Running the Project**:
     * Clone or download this repository.
@@ -45,11 +45,11 @@ You are encouraged to download and run this project to experience the power of t
 
 3.  **Core Control Hotkeys**:
     * `Z` - Generate initial clocks
-    * [cite_start]`X` - Start/Pause the experiment [cite: 3505, 3987]
-    * [cite_start]`C` - Add more clocks to the scene [cite: 3505, 3987]
-    * [cite_start]`B` - Switch in real-time between **Traditional** and **LazyUpdate** modes [cite: 3505, 3987]
-    * [cite_start]`G` - Start/Stop a 10-second performance data collection for the current mode [cite: 3505, 3987]
-    * [cite_start]`Tab` - (In LazyUpdate mode only) Toggle the main camera's **External/Internal Observer** mode [cite: 3505, 3987]
+    * `X` - Start/Pause the experiment 
+    * `C` - Add more clocks to the scene
+    * `B` - Switch in real-time between **Traditional** and **LazyUpdate** modes
+    * `G` - Start/Stop a 10-second performance data collection for the current mode
+    *`Tab` - (In LazyUpdate mode only) Toggle the main camera's **External/Internal Observer** mode
 
 [cite_start]For detailed setup instructions and a full list of hotkeys, please refer to the [**Unity Experiment Setup Manual**](docs/4_Unity_Setup_Manual.pdf)[cite: 3509].
 
