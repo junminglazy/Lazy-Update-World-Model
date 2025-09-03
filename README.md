@@ -51,7 +51,7 @@ You are encouraged to download and run this project to experience the power of t
     * `G` - Start/Stop a 10-second performance data collection for the current mode
     *`Tab` - (In LazyUpdate mode only) Toggle the main camera's **External/Internal Observer** mode
 
-[cite_start]For detailed setup instructions and a full list of hotkeys, please refer to the [**Unity Experiment Setup Manual**](docs/4_Unity_Setup_Manual.pdf)[cite: 3509].
+For detailed setup instructions and a full list of hotkeys, please refer to the [**Unity Experiment Setup Manual**](docs/4_Unity_Setup_Manual.pdf).
 
 ## Documentation Center
 
