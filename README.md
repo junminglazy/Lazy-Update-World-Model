@@ -53,6 +53,11 @@ You are encouraged to download and run this project to experience the power of t
 
 For detailed setup instructions and a full list of hotkeys, please refer to the [**Unity Experiment Setup Manual**](docs/4_Unity_Setup_Manual.pdf).
 
+## Demos Video
+Watch a stress test of the Lazy Update World Model in action, comparing its performance against traditional update methods. The Reddit thread also community discussion.
+https://www.reddit.com/r/Unity3D/comments/1n6ejrg/i_stresstested_my_lazy_update_model_against/
+https://www.reddit.com/r/Unity3D/comments/1n6fa7l/visual_proof_how_my_lazy_update_model_brings_a/
+
 ## Documentation Center
 
 This project includes a complete and in-depth set of documents that cover the journey from theory to practice, located in the `/docs` directory.
