@@ -15,8 +15,8 @@ This model subverts the traditional object-centric **O(N)** computational paradi
 The model is built upon a series of innovative theoretical cornerstones:
 
 * **Potential State**: The vast majority of unobserved objects exist in a state where their logical rules are preserved, but the computation of their specific state is indefinitely deferred, resulting in immense computational savings.
-  The potential state is neither “non-existence” nor a “simplified existence.” It is a well-specified, highly optimized mode of being with the following properties:
-Completeness of data and rules.
+ * The potential state is neither “non-existence” nor a “simplified existence.” It is a well-specified, highly optimized mode of being with the following properties:
+*Completeness of data and rules.
 When an object is in the potential state, all of its foundational attributes and its evolution rule—i.e., the evolution function e—are complete and explicit. The system knows exactly what the object is and how it ought to evolve over time; only the actual computation is deferred.
 Lazy and passive computation.
 The object does not possess an active Update() loop. It remains in computational silence, awaiting “awakening” by an internal observer equipped with sensors—typically via UpdateStateOnObserve(). This on-demand computation pattern is the cornerstone of the principle of minimal computation.
