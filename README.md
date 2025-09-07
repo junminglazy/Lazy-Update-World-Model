@@ -10,29 +10,32 @@ This project introduces a revolutionary architectural model designed to fundamen
 This model subverts the traditional object-centric **O(N)** computational paradigm ("existence is computation") by introducing the core principle of "**perception is computation**." By decoupling computational complexity from the total number of objects (`N`) and tying it only to the number of observed objects (`K`), this architecture successfully achieves theoretical **Scale Invariance**.
 
 ---
+## Core Concepts
+
 ### 1. Potential State
 
-[cite_start]The Potential State is neither “non-existence” nor a “simplified existence”[cite: 2]. [cite_start]It is a well-specified, highly optimized mode of being with the following properties[cite: 3]:
+The Potential State is neither “non-existence” nor a “simplified existence”. It is a well-specified, highly optimized mode of being with the following properties:
 
-* [cite_start]**Completeness of Data and Rules**: When an object is in the potential state, all of its foundational attributes and its evolution rules are complete and explicit[cite: 4]. [cite_start]The system knows exactly what the object is and how it should evolve; only the actual computation is deferred[cite: 5, 6].
-* [cite_start]**Lazy and Passive Computation**: The object does not possess an active `Update()` loop[cite: 7]. [cite_start]It remains in computational silence, awaiting "awakening" by an internal observer, typically via `UpdateStateOnObserve()`[cite: 8]. [cite_start]This on-demand pattern is the cornerstone of the principle of minimal computation[cite: 9].
-* [cite_start]**Logical Continuity and Process Compression**: Although the potential state skips per-frame simulation, the causal logic chain remains fully continuous[cite: 10]. [cite_start]When observed, the system performs a one-shot "compressed evolution" to advance the state from the last update time to now[cite: 11]. [cite_start]The result is mathematically equivalent to per-frame integration[cite: 12].
-* [cite_start]**Chained State Inheritance**: After each lazy update, the object records its `lastUpdatedState` as the starting point for the next round of compressed evolution[cite: 13]. [cite_start]This guarantees that the object’s evolutionary history is continuous and cumulatively maintained[cite: 14].
+* **Completeness of Data and Rules**: When an object is in the potential state, all of its foundational attributes and its evolution rules are complete and explicit. The system knows exactly what the object is and how it should evolve; only the actual computation is deferred.
+* **Lazy and Passive Computation**: The object does not possess an active `Update()` loop. It remains in computational silence, awaiting "awakening" by an internal observer, typically via `UpdateStateOnObserve()`. This on-demand pattern is the cornerstone of the principle of minimal computation.
+* **Logical Continuity and Process Compression**: Although the potential state skips per-frame simulation, the causal logic chain remains fully continuous. When observed, the system performs a one-shot "compressed evolution" to advance the state from the last update time to now[cite: 11]. [cite_start]The result is mathematically equivalent to per-frame integration.
+* **Chained State Inheritance**: After each lazy update, the object records its `lastUpdatedState` as the starting point for the next round of compressed evolution. This guarantees that the object’s evolutionary history is continuous and cumulatively maintained.
 
 ### 2. Compressed Evolution
 
-> [cite_start]When an object in a "Potential State" is observed, the system performs a one-time, mathematically equivalent calculation to instantaneously update its state to the current moment, rather than relying on frame-by-frame simulation[cite: 15].
+> When an object in a "Potential State" is observed, the system performs a one-time, mathematically equivalent calculation to instantaneously update its state to the current moment, rather than relying on frame-by-frame simulation.
 
-[cite_start]For example, instead of simulating an apple’s rotting process 100 times over 100 seconds, the system, upon observation, applies its evolution function once to obtain the apple’s rot level at t = 100s[cite: 12].
+For example, instead of simulating an apple’s rotting process 100 times over 100 seconds, the system, upon observation, applies its evolution function once to obtain the apple’s rot level at t = 100s.
 
 ### 3. Dual Reference Frames
 
-[cite_start]A key implication of this model is the creation of dual reference frames based on a "dimensional difference" in observational capability[cite: 45]. [cite_start]This inevitably yields two entirely different observational outcomes for the same virtual world[cite: 46].
+A key implication of this model is the creation of dual reference frames based on a "dimensional difference" in observational capability. 
+This inevitably yields two entirely different observational outcomes for the same virtual world.
 
-* [cite_start]**Internal Reference Frame (A Causally Continuous Universe)**: From an NPC’s or player's vantage point, the world is perfectly self-consistent[cite: 47, 48]. [cite_start]Time flows continuously and the causal chain is intact[cite: 49]. [cite_start]All phenomena strictly obey the “physical laws” encoded in the codebase[cite: 51].
-* [cite_start]**External Reference Frame (A Discrete, "Lazy" Universe)**: From a developer’s vantage point, the world appears discrete and “lazy”[cite: 52, 53]. [cite_start]It is evident that the system omits all unnecessary intermediate steps for efficiency[cite: 54]. [cite_start]The visible “jump” of an object's state is the moment a lazy update is triggered[cite: 56].
+* **Internal Reference Frame (A Causally Continuous Universe)**: From an NPC’s or player's vantage point, the world is perfectly self-consistent. Time flows continuously and the causal chain is intact. All phenomena strictly obey the “physical laws” encoded in the codebase.
+* **External Reference Frame (A Discrete, "Lazy" Universe)**: From a developer’s vantage point, the world appears discrete and “lazy”. It is evident that the system omits all unnecessary intermediate steps for efficiency. The visible “jump” of an object's state is the moment a lazy update is triggered.
 
-[cite_start]This seeming contradiction is resolved by the concept of reference frames, mirroring the essence of relativity[cite: 59, 60]. [cite_start]The `Scene View` (external frame) vs. `Game View` (internal frame) in Unity is the direct manifestation of this difference[cite: 64].
+This seeming contradiction is resolved by the concept of reference frames, mirroring the essence of relativity.The `Scene View` (external frame) vs. `Game View` (internal frame) in Unity is the direct manifestation of this difference.
 
 ---
 
@@ -40,97 +43,97 @@ This model subverts the traditional object-centric **O(N)** computational paradi
 
 ### Law I: Observer Effect & Lazy Update
 
-[cite_start]This law is responsible for **retrospectively settling the historical state** of an object in a single instance when it is passively observed[cite: 76].
+[cite_start]This law is responsible for **retrospectively settling the historical state** of an object in a single instance when it is passively observed.
 
-* [cite_start]**Core Concept**: Objects that are not being observed remain in the potential state[cite: 77]. [cite_start]They are promoted to the current state only when perceived by an internal observer[cite: 78].
+* **Core Concept**: Objects that are not being observed remain in the potential state. They are promoted to the current state only when perceived by an internal observer.
 
-* [cite_start]**Core Mechanism (Pseudocode)**[cite: 79]:
+* **Core Mechanism (Pseudocode)**:
     ```csharp
     public void UpdateStateOnObserve(GameObject obj, float currentTime) {
         // 1) De-duplicate to prevent re-computation in the same frame
-        [cite_start]if (currentTime == obj.lastUpdateTime) { // [cite: 82]
-            return; [cite_start]// [cite: 83]
+        if (currentTime == obj.lastUpdateTime)
+            { return; }
     
         // 2) Compute time increment
-        float timeElapsed = currentTime - obj.lastUpdateTime; [cite_start]// [cite: 86]
+        float timeElapsed = currentTime - obj.lastUpdateTime; 
     
         // 3) Reconstruct history via compressed evolution
-        obj.currentState = obj.evolution(obj.lastUpdatedState, timeElapsed); [cite_start]// [cite: 88]
+        obj.currentState = obj.evolution(obj.lastUpdatedState, timeElapsed);
     
         // 4) Persist the new state as the next starting point
-        obj.lastUpdatedState = obj.currentState; [cite_start]// [cite: 90]
+        obj.lastUpdatedState = obj.currentState; 
     
         // 5) Update timestamp for the next computation
-        obj.lastUpdateTime = currentTime; [cite_start]// [cite: 92]
+        obj.lastUpdateTime = currentTime; 
     }
     ```
 
-* [cite_start]**Mechanism, Step by Step**[cite: 94]:
-    * [cite_start]**Same-frame de-duplication**: If multiple observers look at the same object in the same frame, compute only once[cite: 95].
-    * [cite_start]**Time-increment calculation**: Determine how much time must be “made up”[cite: 96].
-    * [cite_start]**Historical reconstruction**: Use the evolution function `e` to compute the current state from the last state[cite: 97].
-    * [cite_start]**State persistence**: Save the result as `lastUpdatedState` to serve as the starting point next time[cite: 98].
-    * [cite_start]**Timestamp update**: Record the observation time to prepare for the next computation[cite: 99].
+* **Mechanism, Step by Step**:
+    * **Same-frame de-duplication**: If multiple observers look at the same object in the same frame, compute only once.
+    * **Time-increment calculation**: Determine how much time must be “made up”.
+    * **Historical reconstruction**: Use the evolution function `e` to compute the current state from the last state.
+    * **State persistence**: Save the result as `lastUpdatedState` to serve as the starting point next time.
+    * **Timestamp update**: Record the observation time to prepare for the next computation.
 
-* [cite_start]**Key Point — Chained State Updates**: Each update is based on the previous result, forming a chain of evolution (`Initial → 1st observation → 2nd observation → …`) that guarantees continuity and correctness[cite: 100, 101, 103].
+* [cite_start]**Key Point — Chained State Updates**: Each update is based on the previous result, forming a chain of evolution (`Initial → 1st observation → 2nd observation → …`) that guarantees continuity and correctness.
 
-* [cite_start]**Design Characteristics**[cite: 104]:
-    * [cite_start]Triggerable only by internal observers[cite: 105].
-    * [cite_start]One-shot full evolution, no matter how long the interval[cite: 106].
-    * [cite_start]Same-frame de-duplication for efficiency[cite: 107].
+* **Design Characteristics**:
+    * Triggerable only by internal observers.
+    * One-shot full evolution, no matter how long the interval.
+    * Same-frame de-duplication for efficiency.
 
 ### Law II: Observer Intervention & Causal Chain Settlement
 
-[cite_start]This law is responsible for **prospectively budgeting the future causal chain** of an object after it has been actively intervened with (e.g., thrown, collided with)[cite: 112].
+This law is responsible for **prospectively budgeting the future causal chain** of an object after it has been actively intervened with (e.g., thrown, collided with).
 
-* [cite_start]**Core Concept**: When an observer intervenes, the system performs a one-shot causal settlement of the future so that the causal chain remains complete after the object leaves observation[cite: 113]. [cite_start]Prediction is triggered at a precise moment: when an object carrying “intervention energy” **exits the field of view** of all internal observers[cite: 115]. [cite_start]This clear division of responsibility prevents overlap between Law I and Law II[cite: 117].
+* **Core Concept**: When an observer intervenes, the system performs a one-shot causal settlement of the future so that the causal chain remains complete after the object leaves observation. Prediction is triggered at a precise moment: when an object carrying “intervention energy” **exits the field of view** of all internal observers. This clear division of responsibility prevents overlap between Law I and Law II.
 
-* [cite_start]**Design Inspiration**: Event-Driven Programming[cite: 118]. [cite_start]Future causal outcomes are converted into events and registered with a scheduler[cite: 119, 120].
+* **Design Inspiration**: Event-Driven Programming. Future causal outcomes are converted into events and registered with a scheduler.
 
-* [cite_start]**Core Mechanism (Pseudocode)**[cite: 123]:
+* **Core Mechanism (Pseudocode)**:
     ```csharp
     // Triggered when an intervened object leaves all internal observers' views
-    [cite_start]void OnObjectLeavesObservation(GameObject actor, Action action, float currentTime) { // [cite: 124]
+       void OnObjectLeavesObservation(GameObject actor, Action action, float currentTime) { 
         // 1) Analyze the intervention's energy and target
-        Energy energy = action.GetEnergy(); [cite_start]// [cite: 126]
-        GameObject target = action.GetTarget(); [cite_start]// [cite: 127]
+        Energy energy = action.GetEnergy(); 
+        GameObject target = action.GetTarget(); 
     
         // 2) Use prediction function p to compute the complete causal chain
-        PredictionLine predictionLine = PredictOutcomes(target, energy, currentTime); [cite_start]// [cite: 129]
+        PredictionLine predictionLine = PredictOutcomes(target, energy, currentTime); 
     
         // 3) Transform the prediction line into a sequence of future events
-        List<FutureEvent> events = predictionLine.ToEvents(); [cite_start]// [cite: 131]
+        List<FutureEvent> events = predictionLine.ToEvents(); 
     
         // 4) Register events with the central causal scheduler
-        [cite_start]foreach (var ev in events) { // [cite: 133]
-            CausalScheduler.Register(ev); [cite_start]// [cite: 134]
+        foreach (var ev in events) {
+            CausalScheduler.Register(ev); 
         }
     
         // 5) The target enters potential state, carrying its prediction line
-        target.EnterPotentialState(predictionLine); [cite_start]// [cite: 137]
+        target.EnterPotentialState(predictionLine);
     }
     
     // Prediction function 'p' forecasts future events
-    [cite_start]PredictionLine PredictOutcomes(GameObject obj, Energy energy, float startTime) { // [cite: 139]
-        PredictionLine line = new PredictionLine(); [cite_start]// [cite: 140]
-        State currentState = obj.GetCurrentState(); [cite_start]// [cite: 142]
+    PredictionLine PredictOutcomes(GameObject obj, Energy energy, float startTime) {
+        PredictionLine line = new PredictionLine(); 
+        State currentState = obj.GetCurrentState(); 
         
-        [cite_start]while (energy.IsActive()) { // [cite: 143]
+        [cite_start]while (energy.IsActive()) { 
             // Predict the next key event
-            NextEvent next = p(currentState, energy, environment); [cite_start]// [cite: 145]
+            NextEvent next = p(currentState, energy, environment); 
             
             // Add a constraint (settlement point) to the line
-            line.AddConstraint(next.time, next.eventType, next.state); [cite_start]// [cite: 147]
+            line.AddConstraint(next.time, next.eventType, next.state); 
             
             // Update state and remaining energy
-            currentState = next.state; [cite_start]// [cite: 149]
-            energy = next.remainingEnergy; [cite_start]// [cite: 150]
+            currentState = next.state;
+            energy = next.remainingEnergy; 
     
-            [cite_start]if (energy.IsDepleted() || currentState.IsStable()) { // [cite: 152]
-                break; [cite_start]// [cite: 153]
+           if (energy.IsDepleted() || currentState.IsStable()) {
+                break;
             }
         }
-        return line; [cite_start]// [cite: 156]
+        return line; 
     }
     ```
 
