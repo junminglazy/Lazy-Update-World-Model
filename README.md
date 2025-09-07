@@ -205,7 +205,7 @@ https://www.reddit.com/r/Unity3D/comments/1n6fa7l/visual_proof_how_my_lazy_updat
 
 ## Article
 
-<img width="810" height="904" alt="未命名圖表 drawio (4)" src="https://github.com/user-attachments/assets/2b4ddded-68b1-4dae-b254-67e3d66c95bf" />
+<img width="410" height="504" alt="未命名圖表 drawio (4)" src="https://github.com/user-attachments/assets/2b4ddded-68b1-4dae-b254-67e3d66c95bf" />
 
 1.This article ["The Impossible Triangle of Game Development"](https://medium.com/@junming1119/the-impossible-triangle-of-game-development-how-we-got-trapped-fa760699c1ea).  
 In the article, describe the core dilemma of open-world AAA games: the trade-off between **Scale**, **Fidelity**, and **Cost**.  
