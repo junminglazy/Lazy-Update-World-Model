@@ -205,8 +205,9 @@ https://www.reddit.com/r/Unity3D/comments/1n6fa7l/visual_proof_how_my_lazy_updat
 
 ## Article
 
-1.Are game developers trapped in an "Impossible Triangle"? Scale, Fidelity, Cost—it seems you can only ever pick two.
-(https://medium.com/@junming1119/the-impossible-triangle-of-game-development-how-we-got-trapped-fa760699c1ea)
+#1.This article ["The Impossible Triangle of Game Development"]([link](https://medium.com/@junming1119/the-impossible-triangle-of-game-development-how-we-got-trapped-fa760699c1ea)).  
+In the article, describe the core dilemma of open-world AAA games: the trade-off between **Scale**, **Fidelity**, and **Cost**.  
+This repository explores a potential technical approach to mitigate this problem through a lazy-update world model.
 
 
 ## Documentation Center
