@@ -75,7 +75,7 @@ This law is responsible for **retrospectively settling the historical state** of
     * **State persistence**: Save the result as `lastUpdatedState` to serve as the starting point next time.
     * **Timestamp update**: Record the observation time to prepare for the next computation.
 
-* [cite_start]**Key Point — Chained State Updates**: Each update is based on the previous result, forming a chain of evolution (`Initial → 1st observation → 2nd observation → …`) that guarantees continuity and correctness.
+* **Key Point — Chained State Updates**: Each update is based on the previous result, forming a chain of evolution (`Initial → 1st observation → 2nd observation → …`) that guarantees continuity and correctness.
 
 * **Design Characteristics**:
     * Triggerable only by internal observers.
