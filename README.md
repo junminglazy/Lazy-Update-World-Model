@@ -43,7 +43,7 @@ This seeming contradiction is resolved by the concept of reference frames, mirro
 
 ### Law I: Observer Effect & Lazy Update
 
-[cite_start]This law is responsible for **retrospectively settling the historical state** of an object in a single instance when it is passively observed.
+This law is responsible for **retrospectively settling the historical state** of an object in a single instance when it is passively observed.
 
 * **Core Concept**: Objects that are not being observed remain in the potential state. They are promoted to the current state only when perceived by an internal observer.
 
