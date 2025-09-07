@@ -27,6 +27,9 @@ The theory has been comprehensively validated through the "Strangest Clock Exper
 
 <img width="1200" height="700" alt="未命名設計" src="https://github.com/user-attachments/assets/44d944c5-e98a-4961-a3a2-d3616715b9e6" />
 
+<img width="1200" height="700" alt="未命名設計 (1)" src="https://github.com/user-attachments/assets/571c16c1-b233-4907-ba00-51dca7e87517" />
+
+<img width="1200" height="700" alt="Code_Generated_Image (6)" src="https://github.com/user-attachments/assets/1860e635-9aa8-4aa5-b1a4-5c0d4d06110c" />
 
 -   🚀 **Revolutionary Performance Gains**: In a stress test with up to **65,536** dynamic objects, this model achieved a **124.5% FPS improvement** and a **52.1% CPU saving** compared to the traditional update model, whose performance had completely collapsed (running at only 12.4 FPS).
 -   ✨ **Exceptional Scale Invariance**: As the total number of objects grew exponentially to **32,768**, the Lazy Update model's average frame rate remained stable at **52.9 FPS**, demonstrating performance almost entirely independent of the world's total scale.
