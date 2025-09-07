@@ -18,7 +18,7 @@ The Potential State is neither “non-existence” nor a “simplified existence
 
 * **Completeness of Data and Rules**: When an object is in the potential state, all of its foundational attributes and its evolution rules are complete and explicit. The system knows exactly what the object is and how it should evolve; only the actual computation is deferred.
 * **Lazy and Passive Computation**: The object does not possess an active `Update()` loop. It remains in computational silence, awaiting "awakening" by an internal observer, typically via `UpdateStateOnObserve()`. This on-demand pattern is the cornerstone of the principle of minimal computation.
-* **Logical Continuity and Process Compression**: Although the potential state skips per-frame simulation, the causal logic chain remains fully continuous. When observed, the system performs a one-shot "compressed evolution" to advance the state from the last update time to now[cite: 11]. [cite_start]The result is mathematically equivalent to per-frame integration.
+* **Logical Continuity and Process Compression**: Although the potential state skips per-frame simulation, the causal logic chain remains fully continuous. When observed, the system performs a one-shot "compressed evolution" to advance the state from the last update time to now. The result is mathematically equivalent to per-frame integration.
 * **Chained State Inheritance**: After each lazy update, the object records its `lastUpdatedState` as the starting point for the next round of compressed evolution. This guarantees that the object’s evolutionary history is continuous and cumulatively maintained.
 
 ### 2. Compressed Evolution
@@ -138,9 +138,29 @@ This law is responsible for **prospectively budgeting the future causal chain** 
     ```
 
 ---
+##  The Strangest Clock Experiment
+
+To empirically validate the theoretical framework, a controlled experiment was designed in the Unity engine to provide strong quantitative evidence for the model's performance claims.
+
+* **Objective**: To empirically prove that the Lazy Update model can break the traditional O(N) performance bottleneck of large-scale worlds, and to validate its predicted O(K) complexity and the "Perfect Illusion" phenomenon in A Thought Experiment Based on Clock Simulation.
+
+* **Methodology**:
+    * **Environment & Setup**: The experiment was conducted in a Unity scene viewed from a top-down perspective. A custom C# architecture was developed to automate the procedure and ensure data precision.
+    ***Test Subjects - Clocks**: "Clocks" were used as test subjects, with their total number (N) increasing exponentially from 1 to 65,536. To simulate complexity and maximize performance load, the initial state of all clocks was set to increment sequentially by one-second intervals (e.g., Clock #0 starts at 00:00:00, Clock #1 at 00:00:01, and so on).
+    * **Observers & Interaction**: The scene contained two types of observers:
+        * **Internal Observers**: Represented as arrows, their ray-based "perception" is the sole mechanism that triggers object state updates in Lazy Update mode.
+        * **External Observer**: The main camera acts as the external observer. It can be toggled (via the `Tab` key) between a pure observation mode (showing the underlying "Activity Spotlight") and a proxy internal observer mode (simulating a player's first-person view).
+    * **Procedure**: The experiment followed an iterative A/B testing cycle controlled by hotkeys. For each scale of N, baseline data for the "Traditional Update" mode was collected for 10 seconds. Then, the system was switched to "Lazy Update" mode in real-time to collect comparative data. The cycle was repeated after increasing N to obtain a comprehensive performance curve.
+    * **Key Metrics**: To quantitatively compare the models, the experiment focused on three categories of indicators:
+        * **Performance Metrics**: Average FPS, FPS Jitter (standard deviation), and Average CPU Usage.
+        * **Efficiency Metric**: Active Rate %, calculating the percentage of clocks actually being updated relative to the total number.
+        * **Comparison Metrics**: FPS Improvement Factor and CPU Savings %.
+---
+
 ## Astonishing Empirical Results
 
 The theory has been comprehensively validated through the "Strangest Clock Experiment" in the Unity engine. The empirical data provides irrefutable proof of the model's overwhelming advantages:
+
 
 <img width="1200" height="700" alt="未命名設計" src="https://github.com/user-attachments/assets/44d944c5-e98a-4961-a3a2-d3616715b9e6" />
 
