@@ -146,7 +146,7 @@ To empirically validate the theoretical framework, a controlled experiment was d
 
 * **Methodology**:
     * **Environment & Setup**: The experiment was conducted in a Unity scene viewed from a top-down perspective. A custom C# architecture was developed to automate the procedure and ensure data precision.
-    ***Test Subjects - Clocks**: "Clocks" were used as test subjects, with their total number (N) increasing exponentially from 1 to 65,536. To simulate complexity and maximize performance load, the initial state of all clocks was set to increment sequentially by one-second intervals (e.g., Clock #0 starts at 00:00:00, Clock #1 at 00:00:01, and so on).
+    * **Test Subjects - Clocks**: "Clocks" were used as test subjects, with their total number (N) increasing exponentially from 1 to 65,536. To simulate complexity and maximize performance load, the initial state of all clocks was set to increment sequentially by one-second intervals (e.g., Clock #0 starts at 00:00:00, Clock #1 at 00:00:01, and so on).
     * **Observers & Interaction**: The scene contained two types of observers:
         * **Internal Observers**: Represented as arrows, their ray-based "perception" is the sole mechanism that triggers object state updates in Lazy Update mode.
         * **External Observer**: The main camera acts as the external observer. It can be toggled (via the `Tab` key) between a pure observation mode (showing the underlying "Activity Spotlight") and a proxy internal observer mode (simulating a player's first-person view).
