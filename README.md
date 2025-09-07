@@ -16,10 +16,11 @@ The model is built upon a series of innovative theoretical cornerstones:
 
 1. **Potential State**: The vast majority of unobserved objects exist in a state where their logical rules are preserved, but the computation of their specific state is indefinitely deferred, resulting in immense computational savings.
     * The potential state is neither “non-existence” nor a “simplified existence.” It is a well-specified, highly optimized mode of being with the following properties:
-         * 1. **Completeness of data and rules.**
-               *When an object is in the potential state, all of its foundational attributes and its evolution rule—i.e., the evolution function e—are complete and explicit. The system knows exactly what the object is and how it ought to evolve over time; only the actual computation is deferred.
-Lazy and passive computation.
-The object does not possess an active Update() loop. It remains in computational silence, awaiting “awakening” by an internal observer equipped with sensors—typically via UpdateStateOnObserve(). This on-demand computation pattern is the cornerstone of the principle of minimal computation.
+         * **Completeness of data and rules.**
+               When an object is in the potential state, all of its foundational attributes and its evolution rule—i.e., the evolution function e—are complete and explicit. The system knows exactly what the object is and how it ought to evolve over time; only the actual computation is deferred.
+           * **Lazy and passive computation.**
+               The object does not possess an active Update() loop. It remains in computational silence, awaiting “awakening” by an internal observer equipped with sensors—typically via UpdateStateOnObserve(). This on-demand computation pattern is the cornerstone of the principle of minimal computation.
+             * **Logical continuity and process compression.**
 Logical continuity and process compression.
 Although the potential state skips per-frame simulation across intermediate time points, the causal/logic chain remains fully continuous. When the object is observed and an update is triggered, the system performs compressed evolution—a one-shot computation that advances the state from the last update time to now. The result is mathematically equivalent to per-frame integration.
 Example: instead of simulating an apple’s rotting process 100 times over 100 seconds, the system, upon observation, applies e once to obtain the apple’s rot level at t = 100 s.
