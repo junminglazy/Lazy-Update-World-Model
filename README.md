@@ -25,6 +25,8 @@ The model is built upon a series of innovative theoretical cornerstones:
 
 The theory has been comprehensively validated through the "Strangest Clock Experiment" in the Unity engine. The empirical data provides irrefutable proof of the model's overwhelming advantages:
 
+<img width="1200" height="700" alt="Code_Generated_Image" src="https://github.com/user-attachments/assets/e7868175-9dfc-413d-8d24-691b0df42c1e" />
+
 -   🚀 **Revolutionary Performance Gains**: In a stress test with up to **65,536** dynamic objects, this model achieved a **124.5% FPS improvement** and a **52.1% CPU saving** compared to the traditional update model, whose performance had completely collapsed (running at only 12.4 FPS).
 -   ✨ **Exceptional Scale Invariance**: As the total number of objects grew exponentially to **32,768**, the Lazy Update model's average frame rate remained stable at **52.9 FPS**, demonstrating performance almost entirely independent of the world's total scale.
 -   📉 **Extreme Computational Efficiency**: At the maximum scale, the "**Active Rate**" (the percentage of objects actually computed per frame) was a mere **0.015%**, successfully eliminating nearly all unnecessary computations.
