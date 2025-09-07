@@ -162,11 +162,11 @@ To empirically validate the theoretical framework, a controlled experiment was d
 The theory has been comprehensively validated through the "Strangest Clock Experiment" in the Unity engine. The empirical data provides irrefutable proof of the model's overwhelming advantages:
 
 
-<img width="1200" height="700" alt="未命名設計" src="https://github.com/user-attachments/assets/44d944c5-e98a-4961-a3a2-d3616715b9e6" />
+<img width="600" height="350" alt="未命名設計" src="https://github.com/user-attachments/assets/44d944c5-e98a-4961-a3a2-d3616715b9e6" />
 
-<img width="1200" height="700" alt="未命名設計 (1)" src="https://github.com/user-attachments/assets/571c16c1-b233-4907-ba00-51dca7e87517" />
+<img width="600" height="350" alt="未命名設計 (1)" src="https://github.com/user-attachments/assets/571c16c1-b233-4907-ba00-51dca7e87517" />
 
-<img width="1200" height="700" alt="Code_Generated_Image (6)" src="https://github.com/user-attachments/assets/1860e635-9aa8-4aa5-b1a4-5c0d4d06110c" />
+<img width="600" height="350" alt="Code_Generated_Image (6)" src="https://github.com/user-attachments/assets/1860e635-9aa8-4aa5-b1a4-5c0d4d06110c" />
 
 -   🚀 **Revolutionary Performance Gains**: In a stress test with up to **65,536** dynamic objects, this model achieved a **124.5% FPS improvement** and a **52.1% CPU saving** compared to the traditional update model, whose performance had completely collapsed (running at only 12.4 FPS).
 -   ✨ **Exceptional Scale Invariance**: As the total number of objects grew exponentially to **32,768**, the Lazy Update model's average frame rate remained stable at **52.9 FPS**, demonstrating performance almost entirely independent of the world's total scale.
@@ -208,8 +208,9 @@ https://www.reddit.com/r/Unity3D/comments/1n6fa7l/visual_proof_how_my_lazy_updat
 <img width="210" height="304" alt="未命名圖表 drawio (4)" src="https://github.com/user-attachments/assets/2b4ddded-68b1-4dae-b254-67e3d66c95bf" />
 
 1.This article ["The Impossible Triangle of Game Development: How We Got Trapped"](https://medium.com/@junming1119/the-impossible-triangle-of-game-development-how-we-got-trapped-fa760699c1ea).  
-In the article, describe the core dilemma of open-world AAA games: the trade-off between **Scale**, **Fidelity**, and **Cost**.  
-This repository explores a potential technical approach to mitigate this problem through a lazy-update world model.
+* In the article, describe the core dilemma of open-world AAA games: the trade-off between **Scale**, **Fidelity**, and **Cost**.  
+   It explains how the traditional object-centric global update model in current game engines traps developers, and why rising player expectations, runaway budgets, and hardware demands make this dilemma even worse.  
+   The conclusion argues that breaking free requires a true **Paradigm Shift** in how we think about virtual worlds, rather than incremental optimizations.  
 
 
 ## Documentation Center
