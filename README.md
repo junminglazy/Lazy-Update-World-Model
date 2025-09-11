@@ -208,7 +208,7 @@ https://www.reddit.com/r/Unity3D/comments/1n6fa7l/visual_proof_how_my_lazy_updat
 <img width="210" height="304" alt="未命名圖表 drawio (4)" src="https://github.com/user-attachments/assets/2b4ddded-68b1-4dae-b254-67e3d66c95bf" />
 
 1.This article ["The Impossible Triangle of Game Development: How We Got Trapped"](https://medium.com/@junming1119/the-impossible-triangle-of-game-development-how-we-got-trapped-fa760699c1ea).  
-* In the article, describe the core dilemma of open-world AAA games: the trade-off between **Scale**, **Fidelity**, and **Cost**.  
+* In the article, describe the core dilemma of open-world games: the trade-off between **Scale**, **Fidelity**, and **Cost**.  
    It explains how the traditional object-centric global update model in current game engines traps developers, and why rising player expectations, runaway budgets, and hardware demands make this dilemma even worse.  
    The conclusion argues that breaking free requires a true **Paradigm Shift** in how we think about virtual worlds, rather than incremental optimizations.  
 
