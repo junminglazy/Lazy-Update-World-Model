@@ -184,6 +184,8 @@ https://www.reddit.com/r/Unity3D/comments/1n6ejrg/i_stresstested_my_lazy_update_
 
 https://www.reddit.com/r/Unity3D/comments/1n6fa7l/visual_proof_how_my_lazy_update_model_brings_a/
 
+**[Demos Video Sources](https://github.com/junminglazy/Lazy-Update-World-Model/tree/main/media)**
+
 ## How to Replicate the Experiment
 
 You are encouraged to download and run this project to experience the power of the Lazy Update model firsthand.
