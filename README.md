@@ -176,7 +176,7 @@ The theory has been comprehensively validated through the "Strangest Clock Exper
 ## Demos Video
 Watch a stress test of the Lazy Update World Model in action, comparing its performance against traditional update methods. The Reddit thread also community discussion.
 
-![Untitled ‑ Made with FlexClip (3)](https://github.com/user-attachments/assets/983c3136-d414-4e04-9e02-847df6d8d6fb)
+![Untitled ‑ Made with FlexClip (1)](https://github.com/user-attachments/assets/2998659d-9275-4966-a234-261d0c6f9431)
 
 https://www.reddit.com/r/Unity3D/comments/1n6ejrg/i_stresstested_my_lazy_update_model_against/
 
