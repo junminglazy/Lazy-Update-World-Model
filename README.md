@@ -173,6 +173,15 @@ The theory has been comprehensively validated through the "Strangest Clock Exper
 -   📉 **Extreme Computational Efficiency**: At the maximum scale, the "**Active Rate**" (the percentage of objects actually computed per frame) was a mere **0.015%**, successfully eliminating nearly all unnecessary computations.
 -   💯 **Absolute Logical Consistency**: For an internal observer, the entire experience is mathematically and logically **identical** to that of a world running continuous "brute-force" computations, successfully creating a "Perfect Illusion".
 
+## Demos Video
+Watch a stress test of the Lazy Update World Model in action, comparing its performance against traditional update methods. The Reddit thread also community discussion.
+
+![Untitled ‑ Made with FlexClip (3)](https://github.com/user-attachments/assets/983c3136-d414-4e04-9e02-847df6d8d6fb)
+
+https://www.reddit.com/r/Unity3D/comments/1n6ejrg/i_stresstested_my_lazy_update_model_against/
+
+https://www.reddit.com/r/Unity3D/comments/1n6fa7l/visual_proof_how_my_lazy_update_model_brings_a/
+
 ## How to Replicate the Experiment
 
 You are encouraged to download and run this project to experience the power of the Lazy Update model firsthand.
@@ -195,13 +204,6 @@ You are encouraged to download and run this project to experience the power of t
     *`Tab` - (In LazyUpdate mode only) Toggle the main camera's **External/Internal Observer** mode
 
 For detailed setup instructions and a full list of hotkeys, please refer to the [**Unity Experiment Setup Manual**](docs/4_Unity_Setup_Manual.pdf).
-
-## Demos Video
-Watch a stress test of the Lazy Update World Model in action, comparing its performance against traditional update methods. The Reddit thread also community discussion.
-
-https://www.reddit.com/r/Unity3D/comments/1n6ejrg/i_stresstested_my_lazy_update_model_against/
-
-https://www.reddit.com/r/Unity3D/comments/1n6fa7l/visual_proof_how_my_lazy_update_model_brings_a/
 
 ## Article
 
