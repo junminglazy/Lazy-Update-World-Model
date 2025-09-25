@@ -177,12 +177,10 @@ The theory has been comprehensively validated through the "Strangest Clock Exper
 To visually demonstrate the core mechanism of the Lazy Update model in a real-time operational environment, this observation recorded a specific "observation-activation" scenario. In this scenario, the god's-eye view camera has its "internal observer mode" enabled, and its actual perception range is indicated by a green frame in the Scene view.
 
 <img width="1024" height="576" alt="WPS Photos(1)" src="https://github.com/user-attachments/assets/6d64f4cf-25fa-40df-8a22-a4bd9e990d14" /> 
-                           
                             **(Image 1, Before Trigger State)** 
 
-![WPS Photos(1)](https://github.com/user-attachments/assets/8815b44c-a528-456d-8dfb-faa1cb4feb2e)
-                            
-                            ** (Image 2, After Trigger State)**
+![WPS Photos(1)](https://github.com/user-attachments/assets/8815b44c-a528-456d-8dfb-faa1cb4feb2e) 
+                            **(Image 2, After Trigger State)**
 
 1. **Initial State (Unobserved): Empirical Evidence of "Potential State"**
     * **Observation**: As shown below (Image 1), at a certain moment in the experiment, the Main Time has reached 00:00:47. However, the first clock in the top-left corner of the scene, having not been perceived by any internal observer for an extended period, shows a time stagnated at 00:00:23.
