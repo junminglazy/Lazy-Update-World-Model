@@ -176,8 +176,7 @@ The theory has been comprehensively validated through the "Strangest Clock Exper
 ## Instantaneous Activation of the Lazy Update Mechanism
 To visually demonstrate the core mechanism of the Lazy Update model in a real-time operational environment, this observation recorded a specific "observation-activation" scenario. In this scenario, the god's-eye view camera has its "internal observer mode" enabled, and its actual perception range is indicated by a green frame in the Scene view.
 
-<img width="336" height="189" alt="image" src="https://github.com/user-attachments/assets/42b2e5f7-7b48-4b55-8330-d83f519e1349" /> <img width="336" height="189" alt="image" src="https://github.com/user-attachments/assets/2205e8be-d215-40d4-8d64-d60cc806c647" />
-
+<img width="1024" height="576" alt="WPS Photos(1)" src="https://github.com/user-attachments/assets/6d64f4cf-25fa-40df-8a22-a4bd9e990d14" /> ![WPS Photos(1)](https://github.com/user-attachments/assets/8815b44c-a528-456d-8dfb-faa1cb4feb2e)
 (Image 1, Before Trigger State)            &            (Image 2, After Trigger State)
 
 1. **Initial State (Unobserved): Empirical Evidence of "Potential State"**
@@ -192,7 +191,7 @@ To visually demonstrate the core mechanism of the Lazy Update model in a real-ti
     * **Locality**: Meanwhile, the first clock in the top-left corner, which was not covered by the perception frame, remained stagnated at 00:00:23, further proving the                             locality and on-demand nature of the update behavior.
 3. Overall Conclusion: Visual Evidence of the "Dual Reference Frames" This set of "before" and "after" comparison screenshots provides decisive visual evidence for the model's core "Dual Reference Frames" theory:
 
-    *For the **External Observer** (the developer's perspective, i.e., the Scene view we see), the world's operation is discrete and non-continuous. We can clearly see the vast majority of objects in a static "potential state," and only those objects swept by the "activity spotlight" (the green frame) will instantaneously "jump" to their current state.
+    * For the **External Observer** (the developer's perspective, i.e., the Scene view we see), the world's operation is discrete and non-continuous. We can clearly see the vast majority of objects in a static "potential state," and only those objects swept by the "activity spotlight" (the green frame) will instantaneously "jump" to their current state.
     * For the **Internal Observer** (the player's perspective, as presented in the Game view), the experience is, however, perfectly continuous. This is because it can only ever "see" those objects that have already been activated and are presenting their correct state, thereby creating a "perfect illusion".
 
 **In conclusion**, this qualitative observation has successfully and intuitively reproduced the core mechanisms of the Lazy Update World Model, with its performance being completely consistent with the predictions from the theory and the thought experiment.
