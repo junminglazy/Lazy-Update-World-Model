@@ -207,8 +207,8 @@ Watch a stress test of the Lazy Update World Model in action, comparing its perf
    * 1.Interactive Feel: In traditional mode, when moving the god's-eye view camera quickly, the experimenter could clearly perceive intermittent, noticeable screen stuttering, resulting in a disconnected operational experience.
     * 2.Internal View (Game View): Despite the poor interactive feel, when observing from the simulated internal observer's perspective (i.e., the final rendered game screen), all clocks were able to correctly and synchronously display their logical time.
 2. **Lazy Update Mode Observations**
-  * 1.Interactive Feel: After switching to Lazy Update mode and activating the camera's "internal observer mode," the stuttering sensation completely vanished, even when moving the camera in the same rapid manner. The operational experience was fluid and smooth.
-  *  2.Internal View (Game View): Observing from the internal observer's perspective, all clocks within the field of view also displayed completely correct, logically continuous time, with no visual difference from the final result in the traditional mode.
+      * 1.Interactive Feel: After switching to Lazy Update mode and activating the camera's "internal observer mode," the stuttering sensation completely vanished, even when moving the camera in the same rapid manner. The operational experience was fluid and smooth.
+      *  2.Internal View (Game View): Observing from the internal observer's perspective, all clocks within the field of view also displayed completely correct, logically continuous time, with no visual difference from the final result in the traditional mode.
 
 ![Untitled ‑ Made with FlexClip (1)](https://github.com/user-attachments/assets/2998659d-9275-4966-a234-261d0c6f9431)
 
