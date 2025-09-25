@@ -214,7 +214,7 @@ Watch a stress test of the Lazy Update World Model in action, comparing its perf
 
 https://www.reddit.com/r/Unity3D/comments/1n6ejrg/i_stresstested_my_lazy_update_model_against/
 
-** For **
+**For Mechanism Of Compressed Evolution**
 
 ![Untitled ‑ Made with FlexClip (7)](https://github.com/user-attachments/assets/ab3fcff2-fda4-4545-ab59-cd85fdaa7772)
 
