@@ -178,6 +178,7 @@ To visually demonstrate the core mechanism of the Lazy Update model in a real-ti
 
 <img width="1024" height="576" alt="WPS Photos(1)" src="https://github.com/user-attachments/assets/6d64f4cf-25fa-40df-8a22-a4bd9e990d14" /> 
                             **(Image 1, Before Trigger State)** 
+
 ![WPS Photos(1)](https://github.com/user-attachments/assets/8815b44c-a528-456d-8dfb-faa1cb4feb2e)
                             ** (Image 2, After Trigger State)**
 
