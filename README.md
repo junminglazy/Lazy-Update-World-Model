@@ -180,10 +180,10 @@ To visually demonstrate the core mechanism of the Lazy Update model in a real-ti
 
 (Image 1, Before Trigger State)            &            (Image 2, After Trigger State)
 
-**1. Initial State (Unobserved): Empirical Evidence of "Potential State"**
+1. **Initial State (Unobserved): Empirical Evidence of "Potential State"**
     * **Observation**: As shown below (Image 1), at a certain moment in the experiment, the Main Time has reached 00:00:47. However, the first clock in the top-left corner of the scene, having not been perceived by any internal observer for an extended period, shows a time stagnated at 00:00:23.
     * **Analysis**: This significant time difference is a direct manifestation of the core principle of "Lazy Update". The clock is in a "Potential State"; because it is outside the perception range of any internal observer, the system has not invoked its update logic, thereby avoiding unnecessary computational overhead. This validates the principle of "perception is computation"—without perception, there is no computation.
-**2. Triggered State (Entering Observation Range): Instantaneous Settlement of "Compressed Evolution"**
+2. **Triggered State (Entering Observation Range): Instantaneous Settlement of "Compressed Evolution"**
   * **Observation**: As shown below (Image 2), a few seconds later, when the Main Time reached 00:00:50, the camera was moved towards the bottom right. When the camera's green perception frame covered the two clocks in the bottom-right corner of the scene, their states were instantaneously activated. Their times immediately jumped from their "potential state" to their logically correct times of 00:00:51 and 00:00:52 (Main Time + their respective initial offsets).
   * **Analysis**: This phenomenon perfectly demonstrates the operational flow of Law 1 (Observer Effect and Lazy Update).
         * **Trigger**: The "perception" act by the internal observer triggered the UpdateStateOnObserve() function for these two clocks.
