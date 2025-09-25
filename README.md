@@ -185,15 +185,13 @@ To visually demonstrate the core mechanism of the Lazy Update model in a real-ti
     * **Analysis**: This significant time difference is a direct manifestation of the core principle of "Lazy Update". The clock is in a "Potential State"; because it is outside the perception range of any internal observer, the system has not invoked its update logic, thereby avoiding unnecessary computational overhead. This validates the principle of "perception is computation"—without perception, there is no computation.
       
 2. **Triggered State (Entering Observation Range): Instantaneous Settlement of "Compressed Evolution"**
-  * **Observation**: As shown below (Image 2), a few seconds later, when the Main Time reached 00:00:50, the camera was moved towards the bottom right. When the camera's green perception frame covered the two clocks in the bottom-right corner of the scene, their states were instantaneously activated. Their times immediately jumped from their "potential state" to their logically correct times of 00:00:51 and 00:00:52 (Main Time + their respective initial offsets).
+     * **Observation**: As shown below (Image 2), a few seconds later, when the Main Time reached 00:00:50, the camera was moved towards the bottom right. When the camera's green perception frame covered the two clocks in the bottom-right corner of the scene, their states were instantaneously activated. Their times immediately jumped from their "potential state" to their logically correct times of 00:00:51 and 00:00:52 (Main Time + their respective initial offsets).
   * **Analysis**: This phenomenon perfectly demonstrates the operational flow of Law 1 (Observer Effect and Lazy Update).
     * **Trigger**: The "perception" act by the internal observer triggered the UpdateStateOnObserve() function for these two clocks.
     * **Settlement**: The system performed an efficient "Compressed Evolution," retrospectively settling all the ignored time from the last update point to the current                                 moment in a single, one-off calculation to arrive at a mathematically perfect final state.
     * **Locality**: Meanwhile, the first clock in the top-left corner, which was not covered by the perception frame, remained stagnated at 00:00:23, further proving the                             locality and on-demand nature of the update behavior.
-      
-3. ** Overall Conclusion: Visual Evidence of the "Dual Reference Frames"**:
-
-*This set of "before" and "after" comparison screenshots provides decisive visual evidence for the model's core "Dual Reference Frames" theory:
+3. ** Overall Conclusion: Visual Evidence of the "Dual Reference Frames"**
+      *This set of "before" and "after" comparison screenshots provides decisive visual evidence for the model's core "Dual Reference Frames" theory:
     *For the **External Observer** (the developer's perspective, i.e., the Scene view we see), the world's operation is discrete and non-continuous. We can clearly see the vast majority of objects in a static "potential state," and only those objects swept by the "activity spotlight" (the green frame) will instantaneously "jump" to their current state.
     * For the **Internal Observer** (the player's perspective, as presented in the Game view), the experience is, however, perfectly continuous. This is because it can only ever "see" those objects that have already been activated and are presenting their correct state, thereby creating a "perfect illusion".
 
