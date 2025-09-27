@@ -200,7 +200,7 @@ To visually demonstrate the core mechanism of the Lazy Update model in a real-ti
 
 ## Demos Video
 
-**This link**: Those are sources for the short demos video: **[Demos Video Sources](https://github.com/junminglazy/Lazy-Update-World-Model/tree/main/media)**
+**This link**: are sources for the short demos video: **[Demos Video Sources](https://github.com/junminglazy/Lazy-Update-World-Model/tree/main/media)**
 
 Watch a stress test of the Lazy Update World Model in action, comparing its performance against traditional update methods. The Reddit thread also community discussion.
 
