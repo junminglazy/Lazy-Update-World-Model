@@ -199,6 +199,9 @@ To visually demonstrate the core mechanism of the Lazy Update model in a real-ti
 **In conclusion**, this qualitative observation has successfully and intuitively reproduced the core mechanisms of the Lazy Update World Model, with its performance being completely consistent with the predictions from the theory and the thought experiment.
 
 ## Demos Video
+
+Those are sources for the short demos video: **[Demos Video Sources](https://github.com/junminglazy/Lazy-Update-World-Model/tree/main/media)**
+
 Watch a stress test of the Lazy Update World Model in action, comparing its performance against traditional update methods. The Reddit thread also community discussion.
 
 **Qualitative Observations**
@@ -219,8 +222,6 @@ https://www.reddit.com/r/Unity3D/comments/1n6ejrg/i_stresstested_my_lazy_update_
 ![Untitled ‑ Made with FlexClip (7)](https://github.com/user-attachments/assets/ab3fcff2-fda4-4545-ab59-cd85fdaa7772)
 
 https://www.reddit.com/r/Unity3D/comments/1n6fa7l/visual_proof_how_my_lazy_update_model_brings_a/
-
-Those are sources for the short demos video: **[Demos Video Sources](https://github.com/junminglazy/Lazy-Update-World-Model/tree/main/media)**
 
 ## How to Replicate the Experiment
 
